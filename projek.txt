@@ -1,0 +1,19 @@
+strona portfolio
+
+-header:
+  -nawigacja
+  -obrazek w tle (zdjecie (?))
+  -bezpośredni link do githuba
+  -tytuł strony(h1)/imie nazwisko(p)
+-main:
+  -moje projekty (max 5)
+    -screen
+    -krótki opis (jak technoligia użyta, co robi)
+    -link do repo
+  -techonologie których używam
+  -krótko o sobie
+  -zainteresowania
+-foooter:
+  -kontakt
+    -linki do socjali/tel (?)/mail
+    -formularz kontaktowy (?)
