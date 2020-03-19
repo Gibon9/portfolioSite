@@ -1,12 +1,14 @@
 strona portfolio
 
+głównie GRID najprawdopodobniej + czysty js
+
 -header:
   -nawigacja
   -obrazek w tle (zdjecie (?))
   -bezpośredni link do githuba
   -tytuł strony(h1)/imie nazwisko(p)
 -main:
-  -moje projekty (max 5)
+  -moje projekty (max 5/6)
     -screen
     -krótki opis (jak technoligia użyta, co robi)
     -link do repo
