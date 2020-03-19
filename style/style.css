@@ -1,15 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap&subset=latin-ext');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-::root {
+:root {
   --primary-color-light: #888;
   --primary-color-dark: #666;
   --secondary-color: #f69858;
   --secondary-color-active: #fa6400;
-  --text-color: #fff186;
-  --text-color-active: #fff;
+  --text-color-primary: #fff186;
+  --text-color-secondary: #fff;
 }
 
+body {
+  background-color: var(--primary-color-light);
+  color: var(--text-color-primary);
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.grid {}
+
+.content--hide {
+  display: none;
+}
+
+.header {
+  height: 100vh;
+}
+
+.nav-list__item {
+  background: var(--secondary-color);
+  list-style: none;
+}
+
+.nav-list__item:hover {
+  background: var(--secondary-color-active);
+}
+
+.nav-list__link {
+  text-decoration: none;
+  color: var(--text-color-secondary);
+}
+
+.primary__btn {
+  background: var(--secondary-color);
+  color: var(--text-color-secondary);
+}
+
+.primary__btn:hover {
+  background: var(--secondary-color-active);
+}
+
+.projects,
+.about {
+  background-color: var(--primary-color-dark);
+}
+
+.footer {
+  background-color: var(--secondary-color);
+  color: var(--text-color-secondary);
+}
+
+.secondary__btn {
+  background: var(--primary-color-light);
+  color: var(--text-color-primary);
+}
+
+.secondary__btn:hover {
+  background: var(--primary-color-dark);
+}
