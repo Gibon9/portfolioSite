@@ -1,121 +1,155 @@
 <!DOCTYPE html>
 <html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>WebDeveloper Michał Mroziński</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <button class="header__hamburger">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+      <h1 class="header__title">Michał Mroziński</h1>
+      <p class="header__text">Portfolio WebDevelopera</p>
+      <button class="header__button">
+        <a href="#" class="nav__link">Zobacz moje projekty</a>
+      </button>
+      <nav class="header__nav header__nav--hidden">
+        <li class="nav__item"><a href="about" class="nav__link">o mnie</a></li>
+        <li class="nav__item">
+          <a href="projects" class="nav__link">Projekty</a>
+        </li>
+        <li class="nav__item">
+          <a href="skills" class="nav__link">Umiejętności</a>
+        </li>
+        <li class="nav__item"><a href="#" class="nav__link">Kontakt</a></li>
+      </nav>
+    </header>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WebDeveloper Michał Mroziński</title>
-  <link rel="stylesheet" href="style/style.css">
-</head>
+    <main class="main-content">
+      <section class="projects" id="projects">
+        <header class="section__header">
+          <h2 class="section__title--primary">Moje Projekty</h2>
+        </header>
+        <article class="project__item project__item--primary">
+          <img src="" alt="" class="peoject__image" />
+          <h3 class="project__title">Pierwszy projekt</h3>
+          <p class="project__text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam
+            cupiditate fugiat doloribus impedit molestiae magnam laboriosam quis
+            saepe nostrum temporibus!
+          </p>
+          <ul class="project__tech-list">
+            <li class="tech-list__item">CSS</li>
+            <li class="tech-list__item">HTML</li>
+            <li class="tech-list__item">JavaScript</li>
+            <li class="tech-list__item">Sass</li>
+          </ul>
+        </article>
+        <article class="project__item project__item--secondary">
+          <img src="" alt="" class="peoject__image" />
+          <h3 class="project__title">Pierwszy projekt</h3>
+          <p class="project__text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam
+            cupiditate fugiat doloribus impedit molestiae magnam laboriosam quis
+            saepe nostrum temporibus!
+          </p>
+          <ul class="project__tech-list">
+            <li class="tech-list__item">CSS</li>
+            <li class="tech-list__item">HTML</li>
+            <li class="tech-list__item">JavaScript</li>
+            <li class="tech-list__item">Sass</li>
+          </ul>
+        </article>
+        <article class="project__item project__item--primary">
+          <img src="" alt="" class="peoject__image" />
+          <h3 class="project__title">Pierwszy projekt</h3>
+          <p class="project__text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam
+            cupiditate fugiat doloribus impedit molestiae magnam laboriosam quis
+            saepe nostrum temporibus!
+          </p>
+          <ul class="project__tech-list">
+            <li class="tech-list__item">CSS</li>
+            <li class="tech-list__item">HTML</li>
+            <li class="tech-list__item">JavaScript</li>
+            <li class="tech-list__item">Sass</li>
+          </ul>
+        </article>
+        <article class="project__item project__item--secondary">
+          <img src="" alt="" class="peoject__image" />
+          <h3 class="project__title">Pierwszy projekt</h3>
+          <p class="project__text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam
+            cupiditate fugiat doloribus impedit molestiae magnam laboriosam quis
+            saepe nostrum temporibus!
+          </p>
+          <ul class="project__tech-list">
+            <li class="tech-list__item">CSS</li>
+            <li class="tech-list__item">HTML</li>
+            <li class="tech-list__item">JavaScript</li>
+            <li class="tech-list__item">Sass</li>
+          </ul>
+        </article>
+      </section>
 
-<body>
-  <header class="header">
-    <nav class="nav content--hide">
-      <ul class="nav-list">
-        <li class="nav-list__item"><a href="#" class="nav-list__link">Projekty</a></li>
-        <li class="nav-list__item"><a href="#" class="nav-list__link">Technologie</a></li>
-        <li class="nav-list__item"><a href="#" class="nav-list__link">O mnie</a></li>
-        <li class="nav-list__item"><a href="#" class="nav-list__link">Kontakt</a></li>
-      </ul>
-    </nav>
-    <section class="header__container">
-      <h1 class="header__title">Front End Developer</h1>
-      <p class="header__text-content text-content--blod">Michał Mroziński</p>
-      <p class="header__text-content">Cześć, witam na mojej stronie!</p>
-    </section>
-    <button><a href="" class="primary__btn nav-list__link">GitHub</a></button>
-  </header>
+      <section class="about" id="about">
+        <h2 class="section__title--secondary">O mnie</h2>
+        <p class="sction__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+          eius, dolor nisi facere iusto voluptate ducimus. In eveniet nobis
+          voluptatem id quidem soluta. Quasi inventore velit nihil porro
+          commodi. Quam explicabo repellat earum delectus excepturi libero nisi
+          ullam, veritatis minima voluptatum pariatur fuga et perferendis nemo
+          provident suscipit! Maiores, illo?
+        </p>
+      </section>
 
-  <main class="main-content">
-    <section class="projects" id="projects">
-      <h2 class="content__header">Projekty</h2>
-      <article class="project__container project__container--primary">
-        <img src="" alt="" class="project__img">
-        <h3 class="project__header">pierwszy rojekt</h3>
-        <p class="project__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat labore
-          blanditiis eius aperiam iure quos, asperiores in necessitatibus totam vel nemo culpa ut suscipit magnam alias
-          illo quam dolore cupiditate!</p>
-      </article>
-      <article class="project__container project__container--secondary">
-        <img src="" alt="" class="project__img">
-        <h3 class="project__header">drugi rojekt</h3>
-        <p class="project__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo ipsum eos
-          eligendi, ipsam expedita debitis ratione. Fuga, iusto? Beatae nulla blanditiis deleniti obcaecati commodi,
-          sint quae impedit veniam voluptate facere.</p>
-      </article>
-      <article class="project__container project__container--primary">
-        <img src="" alt="" class="project__img">
-        <h3 class="project__header">trzeci rojekt</h3>
-        <p class="project__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, veniam
-          voluptatibus. Architecto corrupti nesciunt possimus quibusdam at ab unde, suscipit numquam. Magni, laudantium
-          illum. Voluptatem repellat nisi nihil provident iure?</p>
-      </article>
-      <article class="project__container project__container--secondary">
-        <img src="" alt="" class="project__img">
-        <h3 class="project__header">czwarty rojekt</h3>
-        <p class="project__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis
-          perspiciatis, vel molestiae tempora quae asperiores suscipit aliquid beatae quasi ipsum voluptatibus eius
-          ratione excepturi temporibus doloribus eligendi, consequuntur facilis consequatur?</p>
-      </article>
-    </section>
+      <section class="skills" id="skills">
+        <h2 class="section__title--primary">Tehnologie które znam</h2>
+        <p class="section__text">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt error
+          animi enim et porro. Voluptas, perferendis perspiciatis rerum iusto,
+          suscipit quos maxime dolorem excepturi modi non enim ex possimus fugit
+          natus nostrum, reprehenderit minima tenetur dicta? Assumenda quibusdam
+          dolorum dolore.
+        </p>
+        <article class="skill">
+          <img src="" alt="" class="skill__img" />
+          <h3 class="skill__title">HTML</h3>
+        </article>
+        <article class="skill">
+          <img src="" alt="" class="skill__img" />
+          <h3 class="skill__title">CSS</h3>
+        </article>
+        <article class="skill">
+          <img src="" alt="" class="skill__img" />
+          <h3 class="skill__title">Sass</h3>
+        </article>
+        <article class="skill">
+          <img src="" alt="" class="skill__img" />
+          <h3 class="skill__title">JavaScript</h3>
+        </article>
+        <article class="skill">
+          <img src="" alt="" class="skill__img" />
+          <h3 class="skill__title">React</h3>
+        </article>
+      </section>
 
-    <section class="technologies" id="technologies">
-      <h2 class="content__header">Technologie</h2>
-      <article class="technologies__container technologies__container--primary">
-        <img src="" alt="" class="technologies__img">
-        <h3 class="technologies__header">Html</h3>
-      </article>
-      <article class="technologies__container technologies__container--secondary">
-        <img src="" alt="" class="technologies__img">
-        <h3 class="technologies__header">Css</h3>
-      </article>
-      <article class="technologies__container technologies__container--primary">
-        <img src="" alt="" class="technologies__img">
-        <h3 class="technologies__header">js</h3>
-      </article>
-      <article class="technologies__container technologies__container--secondary">
-        <img src="" alt="" class="technologies__img">
-        <h3 class="technologies__header">React</h3>
-      </article>
-      <article class="technologies__container technologies__container--primary">
-        <img src="" alt="" class="technologies__img">
-        <h3 class="technologies__header">node</h3>
-      </article>
-    </section>
-    <section class="about" id="about">
-      <article class="about__container">
-        <h2 class="about__header">O mnie</h2>
-        <p class="about__content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur cum voluptate
-          consequatur, sed adipisci voluptatum officiis recusandae tempore sunt, molestiae porro tenetur ex veritatis,
-          laboriosam modi saepe veniam rem optio.Nobis laborum eveniet error esse quis accusamus voluptatem! Voluptatum
-          dolores totam quisquam a magni exercitationem eveniet explicabo, recusandae hic iure maxime, cumque ipsam?
-          Atque alias accusantium, similique modi quas repellendus.</p>
-      </article>
-      <article class="about__container">
-        <h3 class="about__header">Zainteresowania</h3>
-        <p class="about__content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur cum voluptate
-          consequatur, sed adipisci voluptatum officiis recusandae tempore sunt, molestiae porro tenetur ex veritatis,
-          laboriosam modi saepe veniam rem optio.Nobis laborum eveniet error esse quis accusamus voluptatem! Voluptatum
-          dolores totam quisquam a magni exercitationem eveniet explicabo, recusandae hic iure maxime, cumque ipsam?
-          Atque alias accusantium, similique modi quas repellendus.</p>
-      </article>
-  </main>
+      <section class="contact" id="contact">
+        <h2 class="section__title--secondary">Kontakt</h2>
+        <!--formularz-->
+      </section>
+    </main>
 
-  <footer class="footer" id="contact">
-    <section class="contact">
-      <h2 class="contact__header">Kontakt</h2>
-      <form class="contact__form">
-        <input type="e-mail" name="e-mail">
-        <input type="text" name="text">
-        <input type="button" name="button" value="wyślij" class="secondary__btn">
-      </form>
-      <article class="contact__social">
+    <footer class="footer">
+      <p class="footer__text">Projekt i wykonanie Michał Mroziński 2020</p>
+    </footer>
 
-      </article>
-    </section>
-  </footer>
-
-  <script src="./src/script/index.js"></script>
-</body>
-
+    <script src="./src/script/index.js"></script>
+  </body>
 </html>

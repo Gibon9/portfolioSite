@@ -23,12 +23,12 @@ body {
 
 .grid {}
 
-.content--hide {
-  display: none;
-}
-
 .header {
   height: 100vh;
+}
+
+.nav {
+  display: none;
 }
 
 .nav-list__item {

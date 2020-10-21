@@ -19,3 +19,18 @@ głównie GRID najprawdopodobniej + czysty js
   -kontakt
     -linki do socjali/tel (?)/mail
     -formularz kontaktowy (?)
+
+    <----- TODO ----->
+1. stworztć strukturę HTML
+2. napisać style mobilne
+  2.1 małe ekrany
+  2.2 średnie ekrany
+  2.3 duze ekrany
+  2.4 tablety
+3. napisać style desktopowe
+  3.1 mała rozdzielczość
+  3.2 duża rozdzielczość
+4. js
+  4.1 slider
+  4.2 burger menu (rozdzielczości mobilne)
+  4.3 dodatkowe efekty
