@@ -144,11 +144,12 @@
   list-style: none;
 }
 
-.header__nav--hidden {
+/* .header__nav--hidden {
   transform: translateX(-100%);
-}
+} */
 
 .nav__item {
+  cursor: pointer;
   display: block;
   color: var(--primary-color);
   height: calc(86.5vh / 4);
@@ -233,21 +234,123 @@
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
   .header__hamburger {
     display: none;
   }
 
   .header__nav {
     display: flex;
+    flex-direction: row;
+    position: static;
+    width: 80vw;
+    height: 100px;
+    background-color: inherit;
+  }
+
+  .nav__item {
+    display: block;
+    color: var(--primary-color);
+    height: 100px;
+    flex: 1;
+    text-align: center;
+    font-size: 22px;
+    line-height: 100px;
+    border-bottom: none;
+  }
+
+  .nav__item:active,
+  .nav__item:hover {
+    border-bottom: 2px solid var(--background-color-light);
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+  }
+
+  .header__title {
+    font-size: 50px;
+    padding: 20px;
+  }
+
+  .header__text {
+    margin: 50px 0;
+    font-size: 25px;
+  }
+
+  .header__button {
+    margin: 120px 0 135px;
+  }
+
+  .button__link {
+    font-size: 25px;
   }
 }
+
 @media (min-width: 801px) {
-  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .logo {
+    margin: 25px;
+    padding: 15px;
+    font-size: 25px;
+  }
+
+  .header__nav {
+    width: 75vw;
+    height: 100px;
+  }
+
+  .nav__item {
+    font-size: 20px;
+  }
+
+  .header__title {
+    font-size: 45px;
+  }
+
+  .header__text {
+    margin: 50px 0;
+    font-size: 20px;
+  }
+
+  .header__button {
+    margin: 50px 0 110px;
+  }
+
+  .button__link {
+    font-size: 20px;
+  }
 }
-@media (min-width: 1025px) {
-  /* big landscape tablets, laptops, and desktops */
+@media (min-width: 1024px) {
+  .header__nav {
+    width: 60vw;
+  }
+
+  .header__text {
+    margin: 50px 0;
+  }
+
+  .header__button {
+    margin: 80px 0 120px;
+  }
 }
 @media (min-width: 1281px) {
-  /* hi-res laptops and desktops */
+  .header__nav {
+    width: 50vw;
+  }
+
+  .header__title {
+    font-size: 55px;
+    padding: 20px;
+  }
+
+  .header__text {
+    margin: 50px 0;
+    font-size: 25px;
+  }
+
+  .header__button {
+    margin: 70px 0 120px;
+  }
+
+  .button__link {
+    font-size: 25px;
+  }
 }
